@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="cards">
+        <div class="card card--primary">
+          <div class="bg-blue flex">
+            <img src="images/image-jeremy.png" alt="image of jeremy" />
+            <div class="flow flow--sm">
+              <p class="text-faded fs-300">Report for</p>
+              <h1 class="fs-500 text-white">Jeremy Robson</h1>
+            </div>
+          </div>
+
+          <div class="tab-list flex bg-darkBlue" role="tab">
+            <button aria-selected="false">Daily</button>
+            <button aria-selected="false">Weekly</button>
+            <button aria-selected="false">Monthly</button>
+          </div>
+        </div>
+
+        <div class="card card--info" ">
+          <div class="card-bg bg-lightRed">
+            <img src="images/icon-work.svg" alt="work" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Work</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--info">
+          <div class="card-bg bg-softBlue">
+            <img src="images/icon-play.svg" alt="play" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Play</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--info">
+          <div class="card-bg bg-red">
+            <img src="images/icon-study.svg" alt="study" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Study</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--info" >
+          <div class="card-bg bg-limegreen">
+            <img src="images/icon-exercise.svg" alt="Exercice" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Exercice</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--info">
+          <div class="card-bg bg-violet">
+            <img src="images/icon-social.svg" alt="social" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Social</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--info" >
+          <div class="card-bg bg-softOrange">
+            <img src="images/icon-self-care.svg" alt="self-care" />
+          </div>
+
+          <div class="card-content bg-darkBlue">
+            <header class="flex">
+              <h2 class="text-white fw-500 fs-400">Self Care</h2>
+              <button class="more-btn">
+                <span class="sr-only">show more</span>
+              </button>
+            </header>
+            <div class="flex">
+              <p class="current text-white fs-600"></p>
+              <p class="previous fs-300 text-faded"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="p.js"></script>
+  </body>
+</html>
